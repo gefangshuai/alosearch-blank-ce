@@ -3,9 +3,12 @@
     "version": "1.0",
     "manifest_version": 2,
     "description": "open aol search result blank!",
-    "content_scripts":  [{
-         "matches": ["http://aolsearch.com/search*"],
-         "js": ["jquery.min.js", "main.js"]
+    "icons": {
+        "48": "icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["http://aolsearch.com/search*"],
+        "js": ["jquery.min.js", "main.js"]
     }],
     "permissions": [
         "http://aolsearch.com/"
