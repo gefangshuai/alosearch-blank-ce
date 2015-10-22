@@ -1,0 +1,13 @@
+{
+    "name": "AOL Search Blank",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "open aol search result blank!",
+    "content_scripts":  [{
+         "matches": ["http://aolsearch.com/search*"],
+         "js": ["jquery.min.js", "main.js"]
+    }],
+    "permissions": [
+        "http://aolsearch.com/"
+    ]
+}
